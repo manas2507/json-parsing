@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		18961DE21D3E4B8D0099CA9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18961DE11D3E4B8D0099CA9C /* main.m */; };
 		18961DE51D3E4B8D0099CA9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18961DE41D3E4B8D0099CA9C /* AppDelegate.m */; };
-		18961DE81D3E4B8D0099CA9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18961DE71D3E4B8D0099CA9C /* ViewController.m */; };
-		18961DEB1D3E4B8D0099CA9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18961DE91D3E4B8D0099CA9C /* Main.storyboard */; };
 		18961DED1D3E4B8D0099CA9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18961DEC1D3E4B8D0099CA9C /* Assets.xcassets */; };
 		18961DF01D3E4B8D0099CA9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18961DEE1D3E4B8D0099CA9C /* LaunchScreen.storyboard */; };
+		18961DF91D3E4C140099CA9C /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 18961DF81D3E4C140099CA9C /* Model.m */; };
+		18961DFD1D3FB73B0099CA9C /* JsonData.json in Resources */ = {isa = PBXBuildFile; fileRef = 18961DFC1D3FB73B0099CA9C /* JsonData.json */; };
+		18961E011D3FB9100099CA9C /* JsonParsingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18961DFF1D3FB9100099CA9C /* JsonParsingTableViewController.m */; };
+		18961E061D3FBB840099CA9C /* JsonDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18961E041D3FBB840099CA9C /* JsonDataTableViewCell.m */; };
+		18961E071D3FBB840099CA9C /* JsonDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18961E051D3FBB840099CA9C /* JsonDataTableViewCell.xib */; };
+		18961E091D3FBC6D0099CA9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18961E081D3FBC6D0099CA9C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,18 @@
 		18961DE11D3E4B8D0099CA9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18961DE31D3E4B8D0099CA9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18961DE41D3E4B8D0099CA9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18961DE61D3E4B8D0099CA9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18961DE71D3E4B8D0099CA9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18961DEA1D3E4B8D0099CA9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18961DEC1D3E4B8D0099CA9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18961DEF1D3E4B8D0099CA9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18961DF11D3E4B8D0099CA9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18961DF71D3E4C140099CA9C /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		18961DF81D3E4C140099CA9C /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		18961DFC1D3FB73B0099CA9C /* JsonData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JsonData.json; sourceTree = "<group>"; };
+		18961DFE1D3FB9100099CA9C /* JsonParsingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JsonParsingTableViewController.h; path = ../JsonParsingTableViewController.h; sourceTree = "<group>"; };
+		18961DFF1D3FB9100099CA9C /* JsonParsingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JsonParsingTableViewController.m; path = ../JsonParsingTableViewController.m; sourceTree = "<group>"; };
+		18961E031D3FBB840099CA9C /* JsonDataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonDataTableViewCell.h; sourceTree = "<group>"; };
+		18961E041D3FBB840099CA9C /* JsonDataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonDataTableViewCell.m; sourceTree = "<group>"; };
+		18961E051D3FBB840099CA9C /* JsonDataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JsonDataTableViewCell.xib; sourceTree = "<group>"; };
+		18961E081D3FBC6D0099CA9C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +70,15 @@
 			children = (
 				18961DE31D3E4B8D0099CA9C /* AppDelegate.h */,
 				18961DE41D3E4B8D0099CA9C /* AppDelegate.m */,
-				18961DE61D3E4B8D0099CA9C /* ViewController.h */,
-				18961DE71D3E4B8D0099CA9C /* ViewController.m */,
-				18961DE91D3E4B8D0099CA9C /* Main.storyboard */,
+				18961DFE1D3FB9100099CA9C /* JsonParsingTableViewController.h */,
+				18961DFF1D3FB9100099CA9C /* JsonParsingTableViewController.m */,
+				18961E031D3FBB840099CA9C /* JsonDataTableViewCell.h */,
+				18961E041D3FBB840099CA9C /* JsonDataTableViewCell.m */,
+				18961E051D3FBB840099CA9C /* JsonDataTableViewCell.xib */,
+				18961E081D3FBC6D0099CA9C /* Main.storyboard */,
+				18961DF71D3E4C140099CA9C /* Model.h */,
+				18961DF81D3E4C140099CA9C /* Model.m */,
+				18961DFC1D3FB73B0099CA9C /* JsonData.json */,
 				18961DEC1D3E4B8D0099CA9C /* Assets.xcassets */,
 				18961DEE1D3E4B8D0099CA9C /* LaunchScreen.storyboard */,
 				18961DF11D3E4B8D0099CA9C /* Info.plist */,
@@ -136,9 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18961E071D3FBB840099CA9C /* JsonDataTableViewCell.xib in Resources */,
 				18961DF01D3E4B8D0099CA9C /* LaunchScreen.storyboard in Resources */,
+				18961DFD1D3FB73B0099CA9C /* JsonData.json in Resources */,
 				18961DED1D3E4B8D0099CA9C /* Assets.xcassets in Resources */,
-				18961DEB1D3E4B8D0099CA9C /* Main.storyboard in Resources */,
+				18961E091D3FBC6D0099CA9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +167,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18961DE81D3E4B8D0099CA9C /* ViewController.m in Sources */,
+				18961E011D3FB9100099CA9C /* JsonParsingTableViewController.m in Sources */,
 				18961DE51D3E4B8D0099CA9C /* AppDelegate.m in Sources */,
 				18961DE21D3E4B8D0099CA9C /* main.m in Sources */,
+				18961E061D3FBB840099CA9C /* JsonDataTableViewCell.m in Sources */,
+				18961DF91D3E4C140099CA9C /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		18961DE91D3E4B8D0099CA9C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18961DEA1D3E4B8D0099CA9C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18961DEE1D3E4B8D0099CA9C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
